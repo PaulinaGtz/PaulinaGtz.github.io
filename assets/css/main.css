@@ -149,6 +149,7 @@ input, select, textarea {
 		margin: 0 0 2em 0;
 		position:relative;
 		text-align: justify;
+		left: 12%;
 	}
 
 	.pt2 {
@@ -232,7 +233,7 @@ input, select, textarea {
 		margin: -0.2em 0 2em 2em;
 		position:relative;
 		text-align:justify;
-		right: 12%;
+		left:-10%;
 	}
 
 	#text2 {
