@@ -148,8 +148,14 @@ input, select, textarea {
 	p {
 		margin: 0 0 2em 0;
 		position:relative;
+		text-align: justify;
+	}
+
+	.pt2 {
+		margin: 0 0 2em 0;
+		position:relative;
 		text-align:justify;
-		left: 13%;
+		left: 0;
 	}
 
 	.sk2 {
