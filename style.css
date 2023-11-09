@@ -1,0 +1,176 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.header, .content, .footer {
+    padding: 5px;
+    border: 1px solid #ccc;
+}
+
+.header {
+    color: black;
+    align-items: center;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    color: #ffff;
+    gap: 100px;
+}
+
+a{
+    text-decoration: none;
+    color: black; 
+}
+
+a:hover{
+    color: rgb(112, 0, 112);
+}
+
+a.active {
+    color: rgb(112, 0, 112);
+}
+
+.content {
+    flex: 1;
+    display: flex;
+}
+
+.main {
+    flex: 2;
+}
+
+.sidebar {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: flex-end; 
+    text-align: center;
+    border-right: 1px solid #ccc; 
+    padding: 20px; 
+    margin-top: 20px;
+}
+
+.sidebar-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    text-align: center; 
+    margin-right: 60px;
+}
+
+h2, h4, p.email {
+    margin: 10px 0;
+}
+
+.main {
+    border-left: 1px solid #ccc; 
+    padding-left: 50px;
+    justify-content: space-between;
+}
+
+.footer {
+    color: black;
+    text-align: center;
+    font-size: 12px;
+}
+
+.picture-container {
+    max-width: 100%;
+    aspect-ratio: 1 / 1;
+    height: auto;
+}
+
+.picture {
+    max-width: 200px;
+    height: auto;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.email {
+    color: rgb(112, 0, 112);
+}
+
+.skill-bar {
+    margin-bottom: 20px;
+}
+
+.bar-background {
+    background-color: #ccc;
+    height: 15px;
+    width: 80%;
+    border-radius: 10px;
+    position: relative;
+}
+
+.bar-progress {
+    background-color: #3498db;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.container-education{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 15%;
+}
+
+.year{
+    text-align: end;
+}
+
+.container-experience{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 15%;
+}
+
+a.resume{
+    text-decoration: none;
+    color: rgb(112, 0, 112);
+}
+
+a.git{
+    text-decoration: none;
+    color: rgb(112, 0, 112);
+}
+
+.text-grey {
+    color: grey;
+}
+
+@media screen and (max-width: 800px) {
+
+    .content {
+        flex-direction: column; 
+        margin-bottom: 50px;
+        border: none;
+    }
+
+    .sidebar {
+        border-right: none;
+        align-items: center;
+        height: 50%;
+        border-bottom: 1px solid #ccc; 
+    }
+
+    h1{
+        text-align: center;
+        margin-right: 110px;
+    }
+}
+
+
